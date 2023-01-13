@@ -1,0 +1,22 @@
+.watch {
+    padding: 5.6vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+
+    @media (max-width:768px) {
+        display: block;
+    }
+
+    &__all { 
+        padding: 2vw;
+        
+        h2{
+            margin-bottom: 24px;
+        }
+    }
+
+    img {
+        max-width: 100%;
+    }
+}
